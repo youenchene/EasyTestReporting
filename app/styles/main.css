@@ -14,3 +14,30 @@
 .test-SKIPPED {
     background: gray;
 }
+
+
+.kpi {
+    float: right;
+}
+.success-kpi, .fail-kpi, .skip-kpi, .total-kpi {
+   font-size: 500%;
+   font-weight: bold;
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+.success-kpi {
+    color: green;
+}
+
+.fail-kpi {
+    color: red;
+}
+
+.skip-kpi {
+    color: grey;
+}
+
+.total-kpi {
+    font-size: 800%;
+}

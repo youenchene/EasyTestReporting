@@ -5,6 +5,14 @@
     </form>
 </div>
 <div class="row">
+    <div class="kpi">
+        <div class="success-kpi">{{successCount}}</div>
+        <div class="fail-kpi">{{failCount}}</div>
+        <div class="skip-kpi">{{skipCount}}</div>
+        <div class="total-kpi"> / {{totalCount}}</div>
+    </div>
+    <div google-chart chart="chartObject" style="height:400px; width:400px;"></div>
+
 
     <div ng-repeat="project in projectResults" class="panel panel-primary">
 
